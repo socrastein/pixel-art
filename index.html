@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sketch Pad</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="pad">
+    <!--Contains the space in which script will populate pixel blocks-->
+    </div>
+
+    <div id="buttons"> 
+    <!--Holds buttons for colors, clearing the pad and setting grid size-->
+
+        <!--Drop-down menu for changing the colors you draw with-->
+        <select id="colorSelect">
+            <option id="black">     </option>
+            <option id="red">       </option>
+            <option id="green">     </option>
+            <option id="blue">      </option>
+            <option id="magenta">   </option>
+            <option id="cyan">      </option>
+            <option id="yellow">    </option>
+        </select>
+
+        <!--Pressing this will clear all color from the pad-->
+        <button id="clear">Clear</button>
+
+        <select id="gridSelect">
+            <option id="16">16x16</option>
+            <option id="32">32x32</option>
+            <option id="64">64x64</option>
+            <option id="96">96x96</option>
+        </select>
+
+    </div>
+</body>
+</html>
