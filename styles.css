@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+#canvas {
+    width: 288px;
+    height: 288px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 24px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#colorSelect {
+    width: 36px;
+    background-color: black;
+}
+
+#black {
+    background-color: black;
+}
+#red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#magenta {
+    background-color: magenta;
+}
+#cyan {
+    background-color: cyan;
+}
+#yellow {
+    background-color: yellow;
+}

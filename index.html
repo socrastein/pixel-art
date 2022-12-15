@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Sketch Pad</title>
+    <title>Pixel Art</title>
 
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="pad">
+
+    <h1>Pixel Art</h1>
+
+    <div id="canvas">
     <!--Contains the space in which script will populate pixel blocks-->
     </div>
 
@@ -20,13 +23,13 @@
 
         <!--Drop-down menu for changing the colors you draw with-->
         <select id="colorSelect">
-            <option id="black">     </option>
-            <option id="red">       </option>
-            <option id="green">     </option>
-            <option id="blue">      </option>
-            <option id="magenta">   </option>
-            <option id="cyan">      </option>
-            <option id="yellow">    </option>
+            <option id="black"   value="black">     </option>
+            <option id="red"     value="red">       </option>
+            <option id="green"   value="green">     </option>
+            <option id="blue"    value="blue">      </option>
+            <option id="magenta" value="magenta">   </option>
+            <option id="cyan"    value="cyan">      </option>
+            <option id="yellow"  value="yellow">    </option>
         </select>
 
         <!--Pressing this will clear all color from the pad-->
