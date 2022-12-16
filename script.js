@@ -60,7 +60,7 @@ function fillCanvas(){
     pixels.forEach((pixel) => {
         pixel.style.height = `${heightWidth}px`;
         pixel.style.width = `${heightWidth}px`;
-        pixel.addEventListener('click', () => {
+        pixel.addEventListener('mousedown', () => {
             pixel.style.backgroundColor = `${selectedColor}`;
         })
     });
@@ -73,6 +73,7 @@ function fillCanvas(){
 
 function setColor(){
     selectedColor = colorSelection.value;
+    colorSelection.style.color = selectedColor;
     colorSelection.style.backgroundColor = selectedColor;
     console.log(`Color set to ${selectedColor}`);
 }

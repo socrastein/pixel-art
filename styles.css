@@ -33,7 +33,7 @@ h1 {
 }
 
 #canvas div:hover {
-    background-color: green;
+    background-color: lightgreen;
 }
 
 #colorSelect {
@@ -42,22 +42,35 @@ h1 {
 
 #black {
     background-color: black;
+    color: black;
 }
+
+#white {
+    background-color: white;
+    color: white;
+}
+
 #red {
     background-color: red;
+    color: red;
 }
 #green {
     background-color: green;
+    color: green;
 }
 #blue {
     background-color: blue;
+    color: blue;
 }
 #magenta {
     background-color: magenta;
+    color: magenta;
 }
 #cyan {
     background-color: cyan;
+    color: cyan;
 }
 #yellow {
     background-color: yellow;
+    color: yellow;
 }
