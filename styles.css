@@ -16,15 +16,28 @@ h1 {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    margin: 24px 0;
+    margin: 24px;
 
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+#canvas div {
+    margin: 0;
+    padding: 0;
+    height: 18;
+    width: 18;
+}
+
+#canvas div:hover {
+    background-color: green;
 }
 
 #colorSelect {
     width: 36px;
-    background-color: black;
 }
 
 #black {
