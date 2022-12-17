@@ -37,7 +37,7 @@ h1 {
 }
 
 #colorSelect {
-    width: 36px;
+    width: fit-content;
 }
 
 #black {
