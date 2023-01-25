@@ -74,3 +74,34 @@ h1 {
     background-color: yellow;
     color: yellow;
 }
+
+#gitLogo {
+    height: 2rem;
+    width: 2rem;
+}
+
+#gitLogo:hover {
+    animation: logoRotation .75s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logoRotation {
+    from {
+        transform: scale(1) rotate(0);
+    }
+
+    to {
+        transform: scale(1.2) rotate(720deg);
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
